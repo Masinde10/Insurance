@@ -1,5 +1,9 @@
 # Healthcare Insurance Charge Project
 
+[Data Scientist](https://github.com/Masinde10)
+
+![Health Insurance Project](images/health-insurance.jpg "Health Insurance Project")
+
 ### **1. Project Overview**  
 Healthcare is a fundamental human need, and insurance companies play a vital role in ensuring accessibility to medical care. This project aims to analyze and predict **medical insurance charges** based on various demographic and health-related factors such as **age, BMI, smoking status, region, and number of children**. Using **machine learning models**, we seek to understand which factors influence insurance costs the most and develop an accurate predictive model.  
 
@@ -35,4 +39,7 @@ In this section We are checking to see if my data has mising `values` and `dupli
 ### **Exploratory Data Analysis**
 In this section we check the relationships that exist between our features and this helps us understand our data even more. From the analysis, we see that there are more males than females in our sample. There is a high number of people without children and the number reduces uniformly to those with five children. The correlation between charges and age is high while that of charge and the number of children is low. The number of non-Smokers is higher than those who smoke. There is a positive correlation between BMI and charges as seen in the scatter plot diagram
 
-![BMI Scatter plot](images/BMI.png)
+![BMI Scatter plot](images/BMI.png "BMI Scatter plot")
+![Children](images/Children.png "Children")
+![Smokers](images/Smokers.png "Smokers")
+![Correlation](images/Correlation.png "Correlation")
