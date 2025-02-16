@@ -30,3 +30,9 @@ The dataset, `insurance.csv` used for this project is sourced from kaggle where 
 
 ### **Data Cleaning**
 In this section We are checking to see if my data has mising `values` and `duplicates`. I will drop duplicates if they are present and fill the null values if present.  Filling missing data with `mean for continous data` and `Mode for categorical data` will be strategy to use. There are no missing values in our data but a duplicate existed in `row 581`. Drop the duplicated row.
+
+
+### **Exploratory Data Analysis**
+In this section we check the relationships that exist between our features and this helps us understand our data even more. From the analysis, we see that there are more males than females in our sample. There is a high number of people without children and the number reduces uniformly to those with five children. The correlation between charges and age is high while that of charge and the number of children is low. The number of non-Smokers is higher than those who smoke. There is a positive correlation between BMI and charges as seen in the scatter plot diagram
+
+![BMI Scatter plot](images\BMI.png)
