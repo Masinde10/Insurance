@@ -40,16 +40,17 @@ In this section We are checking to see if my data has mising `values` and `dupli
 In this section we check the relationships that exist between our features and this helps us understand our data even more. From the analysis, we see that there are more males than females in our sample. There is a high number of people without children and the number reduces uniformly to those with five children. The correlation between charges and age is high while that of charge and the number of children is low. The number of non-Smokers is higher than those who smoke. There is a positive correlation between BMI and charges as seen in the scatter plot diagram
 
 **BMI scatter plot**
-![BMI Scatter plot](images/BMI.png "BMI Scatter plot")
+ ![BMI Scatter plot](images/BMI.png "BMI Scatter plot")
 
 **Number of children per person**
-![Children](images/Children.png "Children")
+ ![Children](images/Children.png "Children")
 
 **Distribution of smokers**
-![Smokers](images/Smokers.png "Smokers")
+ ![Smokers](images/Smokers.png "Smokers")
 
 **Correlation heatmap**
-![Correlation](images/Correlation.png "Correlation")
+ ![Correlation](images/Correlation.png "Correlation")
+
 
 ### **Modeling**
 For this project, I used the scikit learn linear regression model as my basline model. I also fitted the OLS linear regression model just to get a better output summary. I went ahead and used decision tree and random forest regression models too. Seeing that the decision tree model was perfoming better than all the models, I went foward and did hyperparameter tuning for the same model to improve its perfomance. I checked for feature importance and dropped the features that didn't contribute anything to my model. Tuned decision tree model`(dt_model1)` stood out as the final model for this project. `The metrics` used to measure perfomance were `Mean Squared Error(MSE) And coeffecient of determination (R2)`
@@ -61,12 +62,12 @@ We conclude that the best perfoming model for this project is the tuned decision
 
 Based on the findings from the tuned Decision Tree model, here are some recommendations:  
 
-#### **1️ For Insurance Companies**  
+#### ** 1️ For Insurance Companies**  
 - Adjust Premiums Based on Key Factors – Since smoking, BMI, age, and number of children influence insurance charges, insurers should personalize premiums accordingly.  
 - Promote Healthier Lifestyles – Offer discounted premiums for non-smokers and individuals maintaining a healthy BMI.  
 - Introduce Family-Based Policies– Since the number of children affects charges, consider family-friendly premium structures for better affordability.  
 
-#### **2️ For Customers**  
+#### ** 2️ For Customers**  
  - Quit Smoking – As smoking significantly increases insurance costs, quitting can lead to lower premiums over time.  
  - Maintain a Healthy BMI – Engaging in regular exercise and a balanced diet** can reduce medical risks and lower insurance costs.  
 - Choose Plans Wisely – Since region and gender don’t impact costs, customers should focus on other factors like coverage and benefits rather than location-based plans.  
