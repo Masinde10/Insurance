@@ -1,6 +1,6 @@
 # Healthcare Insurance Charge Project
 
-[Data Scientist](https://github.com/Masinde10)
+Author: [Victor Masinde](https://github.com/Masinde10)
 
 ![Health Insurance Project](images/health-insurance.jpg "Health Insurance Project")
 
@@ -39,7 +39,4 @@ In this section We are checking to see if my data has mising `values` and `dupli
 ### **Exploratory Data Analysis**
 In this section we check the relationships that exist between our features and this helps us understand our data even more. From the analysis, we see that there are more males than females in our sample. There is a high number of people without children and the number reduces uniformly to those with five children. The correlation between charges and age is high while that of charge and the number of children is low. The number of non-Smokers is higher than those who smoke. There is a positive correlation between BMI and charges as seen in the scatter plot diagram
 
-![BMI Scatter plot](images/BMI.png "BMI Scatter plot")
-![Children](images/Children.png "Children")
-![Smokers](images/Smokers.png "Smokers")
-![Correlation](images/Correlation.png "Correlation")
+![BMI Scatter plot](images/BMI.png "BMI Scatter plot"),![Children](images/Children.png "Children"),![Smokers](images/Smokers.png "Smokers"),![Correlation](images/Correlation.png "Correlation")
